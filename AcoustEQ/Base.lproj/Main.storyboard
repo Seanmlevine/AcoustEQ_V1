@@ -1,24 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9v5-jv-L8J">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Freq Resp View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="FreqRespViewController" customModule="AcoustEQ" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VC1-6Q-lxU" customClass="SpectrumView" customModule="AcoustEQ" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="88" width="414" height="730"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Frx-R4-1La">
+                                        <rect key="frame" x="202" y="355" width="10.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="close" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H32-JA-cZJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="42" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" systemColor="systemRedColor"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <buttonConfiguration key="configuration" style="plain"/>
+                                        <connections>
+                                            <action selector="closeRecordingTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fF8-E9-hmm"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Frx-R4-1La" firstAttribute="centerX" secondItem="VC1-6Q-lxU" secondAttribute="centerX" id="euh-uK-0ZO"/>
+                                    <constraint firstItem="Frx-R4-1La" firstAttribute="centerY" secondItem="VC1-6Q-lxU" secondAttribute="centerY" id="pnc-QO-eDy"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G1a-TU-E26">
+                                <rect key="frame" x="160" y="842" width="94" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="94" id="gkQ-R3-FWu"/>
+                                </constraints>
+                                <buttonConfiguration key="configuration" style="plain" title=" Record">
+                                    <imageReference key="image" image="record.circle" catalog="system" symbolScale="large"/>
+                                    <color key="baseForegroundColor" systemColor="systemRedColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="recordButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fdl-ax-9Pr"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VC1-6Q-lxU" secondAttribute="bottom" constant="44" id="D64-5O-eD0"/>
+                            <constraint firstItem="G1a-TU-E26" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Kia-v4-TTQ"/>
+                            <constraint firstItem="VC1-6Q-lxU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="R1W-5j-xAW"/>
+                            <constraint firstItem="VC1-6Q-lxU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Y2x-vf-RgB"/>
+                            <constraint firstItem="VC1-6Q-lxU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fnv-ZI-3pv"/>
+                            <constraint firstAttribute="bottom" secondItem="G1a-TU-E26" secondAttribute="bottom" constant="23" id="zMu-Pw-4wb"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="0ul-Xf-9MS">
+                        <barButtonItem key="rightBarButtonItem" image="gearshape" catalog="system" id="bzD-DQ-eAg">
+                            <color key="tintColor" systemColor="systemRedColor"/>
+                            <connections>
+                                <segue destination="C4v-uo-baJ" kind="show" id="MCz-Vt-eXg"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="RecordButton" destination="G1a-TU-E26" id="m1a-xU-XhJ"/>
+                        <outlet property="closeRecording" destination="H32-JA-cZJ" id="pbJ-T8-yIk"/>
+                        <outlet property="countdownTimer" destination="Frx-R4-1La" id="4BS-jb-jva"/>
+                        <outlet property="spectrumView" destination="VC1-6Q-lxU" id="blf-IA-cVm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1939" y="122"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Gd6-jm-SET">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9v5-jv-L8J" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UR0-sa-l4r">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="C9E-PZ-Kfd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PcV-mj-HZh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="939.13043478260875" y="83.705357142857139"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="8Ns-EW-AfW">
+            <objects>
+                <tableViewController id="C4v-uo-baJ" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="p5S-oG-nKI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="separatorColor" systemColor="secondarySystemFillColor"/>
+                        <color key="sectionIndexBackgroundColor" systemColor="secondarySystemFillColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="dyt-gL-ozQ">
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dyt-gL-ozQ" id="oRr-xX-JZK">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="C4v-uo-baJ" id="3Uv-QM-jdf"/>
+                            <outlet property="delegate" destination="C4v-uo-baJ" id="yZ7-Q0-8q7"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="0Xt-LN-gIt"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5No-u7-uKL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2770" y="111"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="gearshape" catalog="system" width="128" height="121"/>
+        <image name="record.circle" catalog="system" width="128" height="121"/>
+        <systemColor name="secondarySystemFillColor">
+            <color red="0.47058823529411764" green="0.47058823529411764" blue="0.50196078431372548" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

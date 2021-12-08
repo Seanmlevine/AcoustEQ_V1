@@ -1,19 +1,19 @@
 //
-//  ViewController.swift
+//  SettingsViewController.swift
 //  AcoustEQ
 //
-//  Created by Sean Levine on 11/8/21.
+//  Created by Sean Levine on 12/7/21.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class SettingsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .blue
+
         // Do any additional setup after loading the view.
     }
 
-
 }
-

@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24BFCEE42739758B00C90032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BFCEE32739758B00C90032 /* AppDelegate.swift */; };
+		244DD3A3275715240097EDC1 /* SpectrumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244DD3A2275715240097EDC1 /* SpectrumView.swift */; };
+		244DD3A8275717370097EDC1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244DD3A7275717370097EDC1 /* Extensions.swift */; };
+		249D59F827580CB9006F25EC /* FreqRespViewControllerSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249D59F727580CB9006F25EC /* FreqRespViewControllerSide.swift */; };
 		24BFCEE62739758B00C90032 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BFCEE52739758B00C90032 /* SceneDelegate.swift */; };
-		24BFCEE82739758B00C90032 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BFCEE72739758B00C90032 /* ViewController.swift */; };
-		24BFCEEB2739758B00C90032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BFCEE92739758B00C90032 /* Main.storyboard */; };
-		24BFCEED2739758D00C90032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BFCEEC2739758D00C90032 /* Assets.xcassets */; };
-		24BFCEF02739758D00C90032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BFCEEE2739758D00C90032 /* LaunchScreen.storyboard */; };
+		24BFCEE82739758B00C90032 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BFCEE72739758B00C90032 /* MainViewController.swift */; };
 		24BFCEFB2739758D00C90032 /* AcoustEQTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BFCEFA2739758D00C90032 /* AcoustEQTests.swift */; };
 		24BFCF052739758D00C90032 /* AcoustEQUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BFCF042739758D00C90032 /* AcoustEQUITests.swift */; };
 		24BFCF072739758D00C90032 /* AcoustEQUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BFCF062739758D00C90032 /* AcoustEQUITestsLaunchTests.swift */; };
+		24BFCF22273975C800C90032 /* SpectralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BFCF15273975C800C90032 /* SpectralViewController.swift */; };
+		24BFCF24273975C800C90032 /* SpectralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BFCF17273975C800C90032 /* SpectralView.swift */; };
+		24BFCF27273975C800C90032 /* TempiFFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BFCF1C273975C800C90032 /* TempiFFT.swift */; };
+		24BFCF29273975C800C90032 /* TempiUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BFCF1E273975C800C90032 /* TempiUtilities.swift */; };
+		24BFCF2A273975C800C90032 /* TempiAudioInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BFCF1F273975C800C90032 /* TempiAudioInput.swift */; };
+		24BFCF2E273977DA00C90032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BFCEEE2739758D00C90032 /* LaunchScreen.storyboard */; };
+		24BFCF2F273977DC00C90032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BFCEE92739758B00C90032 /* Main.storyboard */; };
+		24BFCF352739786400C90032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BFCF342739786400C90032 /* Assets.xcassets */; };
+		24BFCF3C27397EDE00C90032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BFCF3B27397EDE00C90032 /* AppDelegate.swift */; };
+		24DDF058276030E100F83687 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DDF057276030E100F83687 /* Protocols.swift */; };
+		24DDF05F27603BB000F83687 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DDF05E27603BB000F83687 /* MenuController.swift */; };
+		24DDF0612760421000F83687 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DDF0602760421000F83687 /* SettingsViewController.swift */; };
+		24DDF0632760421A00F83687 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DDF0622760421A00F83687 /* InfoViewController.swift */; };
+		24DDF06627604A0800F83687 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DDF06527604A0800F83687 /* HomeViewController.swift */; };
+		24DDF068276050E800F83687 /* FreqRespViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DDF067276050E800F83687 /* FreqRespViewController.swift */; };
+		74202A6E2C93D6069EBC5E3F /* Pods_AcoustEQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A047822ACB2BA7054F2A671 /* Pods_AcoustEQ.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +51,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		244DD3A2275715240097EDC1 /* SpectrumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectrumView.swift; sourceTree = "<group>"; };
+		244DD3A7275717370097EDC1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		249D59F727580CB9006F25EC /* FreqRespViewControllerSide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreqRespViewControllerSide.swift; sourceTree = "<group>"; };
 		24BFCEE02739758B00C90032 /* AcoustEQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcoustEQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		24BFCEE32739758B00C90032 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24BFCEE52739758B00C90032 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		24BFCEE72739758B00C90032 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24BFCEE72739758B00C90032 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		24BFCEEA2739758B00C90032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		24BFCEEC2739758D00C90032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24BFCEEF2739758D00C90032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		24BFCEF12739758D00C90032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24BFCEF62739758D00C90032 /* AcoustEQTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcoustEQTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24BFCEFA2739758D00C90032 /* AcoustEQTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcoustEQTests.swift; sourceTree = "<group>"; };
 		24BFCF002739758D00C90032 /* AcoustEQUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcoustEQUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24BFCF042739758D00C90032 /* AcoustEQUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcoustEQUITests.swift; sourceTree = "<group>"; };
 		24BFCF062739758D00C90032 /* AcoustEQUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcoustEQUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		24BFCF15273975C800C90032 /* SpectralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpectralViewController.swift; sourceTree = "<group>"; };
+		24BFCF17273975C800C90032 /* SpectralView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpectralView.swift; sourceTree = "<group>"; };
+		24BFCF1C273975C800C90032 /* TempiFFT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempiFFT.swift; sourceTree = "<group>"; };
+		24BFCF1E273975C800C90032 /* TempiUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempiUtilities.swift; sourceTree = "<group>"; };
+		24BFCF1F273975C800C90032 /* TempiAudioInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempiAudioInput.swift; sourceTree = "<group>"; };
+		24BFCF342739786400C90032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24BFCF382739799700C90032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24BFCF3B27397EDE00C90032 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../tempi-fft-master/TempiFFT/AppDelegate.swift"; sourceTree = "<group>"; };
+		24DDF057276030E100F83687 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		24DDF05E27603BB000F83687 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		24DDF0602760421000F83687 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		24DDF0622760421A00F83687 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		24DDF06527604A0800F83687 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		24DDF067276050E800F83687 /* FreqRespViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreqRespViewController.swift; sourceTree = "<group>"; };
+		2BB0A1AB0D23761E47B57CC4 /* Pods-AcoustEQ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcoustEQ.debug.xcconfig"; path = "Target Support Files/Pods-AcoustEQ/Pods-AcoustEQ.debug.xcconfig"; sourceTree = "<group>"; };
+		3A047822ACB2BA7054F2A671 /* Pods_AcoustEQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AcoustEQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C7532639EFEA77C47F32038 /* Pods-AcoustEQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcoustEQ.release.xcconfig"; path = "Target Support Files/Pods-AcoustEQ/Pods-AcoustEQ.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74202A6E2C93D6069EBC5E3F /* Pods_AcoustEQ.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +109,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BA9E5FA0A018EECDAB3D759 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A047822ACB2BA7054F2A671 /* Pods_AcoustEQ.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		244DD3A6275717110097EDC1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				244DD3A7275717370097EDC1 /* Extensions.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		24BFCED72739758B00C90032 = {
 			isa = PBXGroup;
 			children = (
 				24BFCEE22739758B00C90032 /* AcoustEQ */,
+				244DD3A6275717110097EDC1 /* Other */,
 				24BFCEF92739758D00C90032 /* AcoustEQTests */,
 				24BFCF032739758D00C90032 /* AcoustEQUITests */,
 				24BFCEE12739758B00C90032 /* Products */,
+				C2443C440C9A9A8B54AE6FD8 /* Pods */,
+				1BA9E5FA0A018EECDAB3D759 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +151,17 @@
 		24BFCEE22739758B00C90032 /* AcoustEQ */ = {
 			isa = PBXGroup;
 			children = (
-				24BFCEE32739758B00C90032 /* AppDelegate.swift */,
+				24BFCF3B27397EDE00C90032 /* AppDelegate.swift */,
 				24BFCEE52739758B00C90032 /* SceneDelegate.swift */,
-				24BFCEE72739758B00C90032 /* ViewController.swift */,
+				24DDF059276031C500F83687 /* Utils */,
+				24DDF05A276031D200F83687 /* Controllers */,
+				24DDF0692760593600F83687 /* Deprecated */,
+				24DDF0642760468000F83687 /* Views */,
 				24BFCEE92739758B00C90032 /* Main.storyboard */,
-				24BFCEEC2739758D00C90032 /* Assets.xcassets */,
 				24BFCEEE2739758D00C90032 /* LaunchScreen.storyboard */,
-				24BFCEF12739758D00C90032 /* Info.plist */,
+				24BFCF342739786400C90032 /* Assets.xcassets */,
+				24BFCF382739799700C90032 /* Info.plist */,
+				24BFCF13273975C800C90032 /* TempiFFT */,
 			);
 			path = AcoustEQ;
 			sourceTree = "<group>";
@@ -127,6 +183,65 @@
 			path = AcoustEQUITests;
 			sourceTree = "<group>";
 		};
+		24BFCF13273975C800C90032 /* TempiFFT */ = {
+			isa = PBXGroup;
+			children = (
+				24BFCF17273975C800C90032 /* SpectralView.swift */,
+				24BFCF15273975C800C90032 /* SpectralViewController.swift */,
+				24BFCF1C273975C800C90032 /* TempiFFT.swift */,
+				24BFCF1E273975C800C90032 /* TempiUtilities.swift */,
+				24BFCF1F273975C800C90032 /* TempiAudioInput.swift */,
+			);
+			path = TempiFFT;
+			sourceTree = "<group>";
+		};
+		24DDF059276031C500F83687 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				24DDF057276030E100F83687 /* Protocols.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		24DDF05A276031D200F83687 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				24BFCEE72739758B00C90032 /* MainViewController.swift */,
+				24DDF067276050E800F83687 /* FreqRespViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		24DDF0642760468000F83687 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				244DD3A2275715240097EDC1 /* SpectrumView.swift */,
+			);
+			name = Views;
+			path = Controllers/Views;
+			sourceTree = "<group>";
+		};
+		24DDF0692760593600F83687 /* Deprecated */ = {
+			isa = PBXGroup;
+			children = (
+				24DDF06527604A0800F83687 /* HomeViewController.swift */,
+				24DDF0602760421000F83687 /* SettingsViewController.swift */,
+				24DDF0622760421A00F83687 /* InfoViewController.swift */,
+				24DDF05E27603BB000F83687 /* MenuController.swift */,
+				249D59F727580CB9006F25EC /* FreqRespViewControllerSide.swift */,
+			);
+			path = Deprecated;
+			sourceTree = "<group>";
+		};
+		C2443C440C9A9A8B54AE6FD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BB0A1AB0D23761E47B57CC4 /* Pods-AcoustEQ.debug.xcconfig */,
+				9C7532639EFEA77C47F32038 /* Pods-AcoustEQ.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24BFCF0A2739758D00C90032 /* Build configuration list for PBXNativeTarget "AcoustEQ" */;
 			buildPhases = (
+				1BD82A63BCA4D60306BE6395 /* [CP] Check Pods Manifest.lock */,
 				24BFCEDC2739758B00C90032 /* Sources */,
 				24BFCEDD2739758B00C90032 /* Frameworks */,
 				24BFCEDE2739758B00C90032 /* Resources */,
+				D725E4DB741E4D5C326C6FD7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +348,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24BFCEF02739758D00C90032 /* LaunchScreen.storyboard in Resources */,
-				24BFCEED2739758D00C90032 /* Assets.xcassets in Resources */,
-				24BFCEEB2739758B00C90032 /* Main.storyboard in Resources */,
+				24BFCF2E273977DA00C90032 /* LaunchScreen.storyboard in Resources */,
+				24BFCF2F273977DC00C90032 /* Main.storyboard in Resources */,
+				24BFCF352739786400C90032 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,13 +370,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1BD82A63BCA4D60306BE6395 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AcoustEQ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D725E4DB741E4D5C326C6FD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AcoustEQ/Pods-AcoustEQ-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AcoustEQ/Pods-AcoustEQ-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AcoustEQ/Pods-AcoustEQ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		24BFCEDC2739758B00C90032 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24BFCEE82739758B00C90032 /* ViewController.swift in Sources */,
-				24BFCEE42739758B00C90032 /* AppDelegate.swift in Sources */,
+				24BFCF22273975C800C90032 /* SpectralViewController.swift in Sources */,
+				24BFCEE82739758B00C90032 /* MainViewController.swift in Sources */,
+				249D59F827580CB9006F25EC /* FreqRespViewControllerSide.swift in Sources */,
+				24BFCF2A273975C800C90032 /* TempiAudioInput.swift in Sources */,
+				24DDF0632760421A00F83687 /* InfoViewController.swift in Sources */,
+				24BFCF3C27397EDE00C90032 /* AppDelegate.swift in Sources */,
+				244DD3A3275715240097EDC1 /* SpectrumView.swift in Sources */,
+				24BFCF24273975C800C90032 /* SpectralView.swift in Sources */,
+				24DDF068276050E800F83687 /* FreqRespViewController.swift in Sources */,
+				24DDF058276030E100F83687 /* Protocols.swift in Sources */,
+				24BFCF27273975C800C90032 /* TempiFFT.swift in Sources */,
+				24DDF0612760421000F83687 /* SettingsViewController.swift in Sources */,
+				24DDF06627604A0800F83687 /* HomeViewController.swift in Sources */,
+				24BFCF29273975C800C90032 /* TempiUtilities.swift in Sources */,
+				244DD3A8275717370097EDC1 /* Extensions.swift in Sources */,
+				24DDF05F27603BB000F83687 /* MenuController.swift in Sources */,
 				24BFCEE62739758B00C90032 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +607,7 @@
 		};
 		24BFCF0B2739758D00C90032 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BB0A1AB0D23761E47B57CC4 /* Pods-AcoustEQ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,12 +630,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		24BFCF0C2739758D00C90032 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C7532639EFEA77C47F32038 /* Pods-AcoustEQ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -484,7 +659,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
