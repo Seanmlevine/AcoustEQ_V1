@@ -18,9 +18,14 @@ class SpectrumView: UIView {
     private var displayLink: CADisplayLink!
 
     //try to change this on recording
-    private var fft: TempiFFT = TempiFFT(withSize: 2048, sampleRate: Float(44100.0))
+    // Change in size when settings are changed
+    // Make into non private var
+    public var fft: TempiFFT = TempiFFT(withSize: 2048, sampleRate: Float(44100.0))
     // var fft: TempiFFT!
     
+    
+    // Save user settings if the stopped fft is what you want
+    // Output fftSamples to chart when done recording
     private var fftSamples: [Float] = []
 
     private var shapeLayer: CAShapeLayer!
@@ -38,7 +43,8 @@ class SpectrumView: UIView {
         displayLink.preferredFramesPerSecond = 60
         displayLink.add(to: .main, forMode: .common)
         displayLink.add(to: .main, forMode: .tracking)
-
+        
+        // Change with settings
         fft.windowType = .hanning
 
         shapeLayer = CAShapeLayer()
@@ -94,7 +100,7 @@ class SpectrumView: UIView {
         return controlPoint
     }
 
-    func performFFT(inputBuffer: [Float], bufferSize: Float) {
+    func performFFT(inputBuffer: [Float], bufferSize: Float, bandsPerOctave: Int, scale: String) {
         
         needsNewFFT = false
         
@@ -102,7 +108,17 @@ class SpectrumView: UIView {
         fft.fftForward(inputBuffer)
         
         // Map FFT data to logical bands. This gives 4 bands per octave across 7 octaves = 28 bands.
-        fft.calculateLogarithmicBands(minFrequency: 50, maxFrequency: 20000, bandsPerOctave: 8)
+        if scale == "Logarithm" {
+            fft.calculateLogarithmicBands(minFrequency: 50, maxFrequency: 20000, bandsPerOctave: bandsPerOctave)
+        }
+        else if scale == "Linear"{
+            fft.calculateLinearBands(minFrequency: 50, maxFrequency: 20000, numberOfBands: bandsPerOctave)
+        }
+        
+        // Change to linear when settings are changed
+        // Change bands per octave when settings are changed
+        
+        
         // Process some data
 
         let maxDB: Float = 180
@@ -116,6 +132,10 @@ class SpectrumView: UIView {
         }
 
         if fftSamples.isEmpty {
+            fftSamples = fftArray
+            return
+        }
+        if fftSamples != fftArray {
             fftSamples = fftArray
             return
         }

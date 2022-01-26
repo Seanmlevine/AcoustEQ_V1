@@ -6,9 +6,9 @@
 import UIKit
 import AVFoundation
 
-class FreqRespViewController: UIViewController {
+class FreqRespViewController: UIViewController, setFreqResponseDelegate {
 
-
+    
     // Storyboard Init
 
     @IBOutlet weak var spectrumView: SpectrumView!
@@ -17,7 +17,7 @@ class FreqRespViewController: UIViewController {
     @IBOutlet weak var closeRecording: UIButton!
     
     // Init Audio control
-    var audioInput: TempiAudioInput!
+    public var audioInput: TempiAudioInput!
     
     // Init Timer
     var count = 5
@@ -27,27 +27,39 @@ class FreqRespViewController: UIViewController {
     var sampleRate = 44100.0
     var recordingBuffer = 16384.0 //samples
     var regularBuffer = 2048.0
+    var octaveBands = 8
+    var scale = "Logarithm"
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.spectrumView.bounds = spectrumView.bounds
-        
         
         countdownTimer?.isHidden = true
         closeRecording?.isHidden = true
+        
+        
 
-        
-        let audioInputCallback: TempiAudioInputCallback = { (timeStamp, numberOfFrames, samples) -> Void in
-//            self.gotSomeAudio(timeStamp: Double(timeStamp), numberOfFrames: Int(numberOfFrames), samples: samples)
-            tempi_dispatch_main { () -> () in
-                self.spectrumView.performFFT(inputBuffer: samples, bufferSize: Float(self.regularBuffer))
-            }
-            
-        }
-        
-        audioInput = TempiAudioInput(audioInputCallback: audioInputCallback, sampleRate: 44100, numberOfChannels: 1)
-        audioInput.startRecording()
+        startAudio()
+//        let audioInputCallback: TempiAudioInputCallback = { (timeStamp, numberOfFrames, samples) -> Void in
+////            self.gotSomeAudio(timeStamp: Double(timeStamp), numberOfFrames: Int(numberOfFrames), samples: samples)
+//            tempi_dispatch_main { () -> () in
+//                self.spectrumView.performFFT(inputBuffer: samples, bufferSize: Float(self.regularBuffer), bandsPerOctave: self.octaveBands, scale: self.scale)
+//            }
+//
+//        }
+//
+//        audioInput = TempiAudioInput(audioInputCallback: audioInputCallback, sampleRate: 44100, numberOfChannels: 1, bufferSize: Float(self.regularBuffer))
+//        audioInput.startRecording()
+    
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        self.audioInput.startRecording()
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        self.audioInput.stopRecording()
+    }
+    
     
     @IBAction func recordButtonTapped(_ sender: UIButton) {
         
@@ -71,20 +83,12 @@ class FreqRespViewController: UIViewController {
                 // somehow change the numberOfFrames in callback and spectrumView
                 tempi_dispatch_main { () -> () in
                     //self.spectrumView.fft = TempiFFT(withSize: recordingBuffer, sampleRate: sampleRate)
-                    self.spectrumView.performFFT(inputBuffer: samples, bufferSize: Float(2048.0))
+                    self.spectrumView.performFFT(inputBuffer: samples, bufferSize: Float(2048.0), bandsPerOctave: self.octaveBands, scale: self.scale)
                 }
                 
             }
-            self.audioInput = TempiAudioInput(audioInputCallback: audioInputCallback, sampleRate: 44100, numberOfChannels: 1)
+            self.audioInput = TempiAudioInput(audioInputCallback: audioInputCallback, sampleRate: 44100, numberOfChannels: 1, bufferSize: Float(self.recordingBuffer))
             
-            // Change the IO Buffer duration
-            do {
-                
-            try self.audioInput.audioSession.setPreferredIOBufferDuration(self.recordingBuffer/self.sampleRate)
-                
-            } catch{
-                print("*** audioSession error: \(error)")
-            }
             
             self.audioInput.startRecording() //record and stop recording after certain period of time
             
@@ -100,23 +104,29 @@ class FreqRespViewController: UIViewController {
     
     @IBAction func closeRecordingTapped(_ sender: UIButton) {
         self.closeRecording.isHidden = true
+        startAudio()
+    }
+    
+    func setFreqResponse(frameSize: Int, octaveBand: Int, scale: String) {
+        //audioInput.stopRecording()
+        self.regularBuffer = Double(frameSize)
+        self.octaveBands = octaveBand
+        self.scale = scale
+        startAudio()
+    }
+    
+    func startAudio() {
+        self.spectrumView.fft = TempiFFT(withSize: Int(self.regularBuffer), sampleRate: Float(self.sampleRate))
         let audioInputCallback: TempiAudioInputCallback = { (timeStamp, numberOfFrames, samples) -> Void in
-//            self.gotSomeAudio(timeStamp: Double(timeStamp), numberOfFrames: Int(numberOfFrames), samples: samples)
+            
             tempi_dispatch_main { () -> () in
-                self.spectrumView.performFFT(inputBuffer: samples, bufferSize: Float(self.regularBuffer))
+                self.spectrumView.performFFT(inputBuffer: samples, bufferSize: Float(self.regularBuffer), bandsPerOctave: self.octaveBands, scale: self.scale)
             }
             
         }
-        do {
-            
-        try self.audioInput.audioSession.setPreferredIOBufferDuration(self.regularBuffer/self.sampleRate)
-            
-        } catch{
-            print("*** audioSession error: \(error)")
-        }
         
-        audioInput = TempiAudioInput(audioInputCallback: audioInputCallback, sampleRate: 44100, numberOfChannels: 1)
-        audioInput.startRecording()
+        self.audioInput = TempiAudioInput(audioInputCallback: audioInputCallback, sampleRate: 44100, numberOfChannels: 1, bufferSize: Float(self.regularBuffer))
+        self.audioInput.startRecording()
     }
     
     //Countdown selector used to change the timer
@@ -136,6 +146,14 @@ class FreqRespViewController: UIViewController {
         timer.invalidate()
         timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateCounter), userInfo: nil, repeats: true)
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "getSettingsSegue"{
+            let settings: SettingsViewController = segue.destination as! SettingsViewController
+            settings.delegate = self
+        }
+    }
+    
     
 
     override func didReceiveMemoryWarning() {

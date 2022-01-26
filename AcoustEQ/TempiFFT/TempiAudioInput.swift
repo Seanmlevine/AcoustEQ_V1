@@ -20,6 +20,7 @@ class TempiAudioInput: NSObject {
     let audioSession : AVAudioSession = AVAudioSession.sharedInstance()
     var sampleRate: Float
     var numberOfChannels: Int
+    var bufferSize: Float
     
     /// When true, performs DC offset rejection on the incoming buffer before invoking the audioInputCallback.
     var shouldPerformDCOffsetRejection: Bool = false
@@ -33,10 +34,11 @@ class TempiAudioInput: NSObject {
     /// - Parameter sampleRate: The sample rate to set up the audio session with.
     /// - Parameter numberOfChannels: The number of channels to set up the audio session with.
     
-    init(audioInputCallback callback: @escaping TempiAudioInputCallback, sampleRate: Float = 44100.0, numberOfChannels: Int = 2) {
+    init(audioInputCallback callback: @escaping TempiAudioInputCallback, sampleRate: Float = 44100.0, numberOfChannels: Int = 2, bufferSize: Float = 2048.0) {
         
         self.sampleRate = sampleRate
         self.numberOfChannels = numberOfChannels
+        self.bufferSize = bufferSize
         audioInputCallback = callback
     }
 
@@ -133,7 +135,7 @@ class TempiAudioInput: NSObject {
             // NB: This is considered a 'hint' and more often than not is just ignored.
             
             //try to change this IOBufferDuration elsewhere
-            try audioSession.setPreferredIOBufferDuration(2048/44100.0)
+            try audioSession.setPreferredIOBufferDuration(TimeInterval(self.bufferSize/self.sampleRate))
             
             audioSession.requestRecordPermission { (granted) -> Void in
                 if !granted {

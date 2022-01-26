@@ -31,6 +31,8 @@ class FreqRespEditViewController: UIViewController {
     var sampleRate = 44100.0
     var recordingBuffer = 16384.0 //samples
     var regularBuffer = 2048.0
+    var octaveBands = 8
+    var scale = "Logarithmic"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -56,7 +58,7 @@ class FreqRespEditViewController: UIViewController {
         let audioInputCallback: TempiAudioInputCallback = { (timeStamp, numberOfFrames, samples) -> Void in
 //            self.gotSomeAudio(timeStamp: Double(timeStamp), numberOfFrames: Int(numberOfFrames), samples: samples)
             tempi_dispatch_main { () -> () in
-                self.spectrumView.performFFT(inputBuffer: samples, bufferSize: Float(self.regularBuffer))
+                self.spectrumView.performFFT(inputBuffer: samples, bufferSize: Float(self.regularBuffer), bandsPerOctave: self.octaveBands, scale: self.scale)
 //                self.spectrumView?.performFFT(inputBuffer: samples, bufferSize: Float(self.regularBuffer))
             }
             
@@ -66,9 +68,7 @@ class FreqRespEditViewController: UIViewController {
         audioInput.startRecording()
     }
     
-    private func configureRecordButton() {
-        
-    }
+
     @objc func recordButtonTapped(_ sender: UIButton) {
         
         //Stop Recording
@@ -91,7 +91,7 @@ class FreqRespEditViewController: UIViewController {
                 // somehow change the numberOfFrames in callback and spectrumView
                 tempi_dispatch_main { () -> () in
                     //self.spectrumView.fft = TempiFFT(withSize: recordingBuffer, sampleRate: sampleRate)
-                    self.spectrumView.performFFT(inputBuffer: samples, bufferSize: Float(2048.0))
+                    self.spectrumView.performFFT(inputBuffer: samples, bufferSize: Float(2048.0), bandsPerOctave: self.octaveBands, scale: self.scale)
                 }
                 
             }
@@ -171,7 +171,7 @@ class FreqRespEditViewController: UIViewController {
         let audioInputCallback: TempiAudioInputCallback = { (timeStamp, numberOfFrames, samples) -> Void in
 //            self.gotSomeAudio(timeStamp: Double(timeStamp), numberOfFrames: Int(numberOfFrames), samples: samples)
             tempi_dispatch_main { () -> () in
-                self.spectrumView.performFFT(inputBuffer: samples, bufferSize: Float(self.regularBuffer))
+                self.spectrumView.performFFT(inputBuffer: samples, bufferSize: Float(self.regularBuffer), bandsPerOctave: self.octaveBands, scale: self.scale)
             }
             
         }

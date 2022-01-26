@@ -129,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				24BFCEE22739758B00C90032 /* AcoustEQ */,
+				24DDF0692760593600F83687 /* Deprecated */,
 				244DD3A6275717110097EDC1 /* Other */,
 				24BFCEF92739758D00C90032 /* AcoustEQTests */,
 				24BFCF032739758D00C90032 /* AcoustEQUITests */,
@@ -155,7 +156,6 @@
 				24BFCEE52739758B00C90032 /* SceneDelegate.swift */,
 				24DDF059276031C500F83687 /* Utils */,
 				24DDF05A276031D200F83687 /* Controllers */,
-				24DDF0692760593600F83687 /* Deprecated */,
 				24DDF0642760468000F83687 /* Views */,
 				24BFCEE92739758B00C90032 /* Main.storyboard */,
 				24BFCEEE2739758D00C90032 /* LaunchScreen.storyboard */,
@@ -208,6 +208,7 @@
 			children = (
 				24BFCEE72739758B00C90032 /* MainViewController.swift */,
 				24DDF067276050E800F83687 /* FreqRespViewController.swift */,
+				24DDF0602760421000F83687 /* SettingsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -225,7 +226,6 @@
 			isa = PBXGroup;
 			children = (
 				24DDF06527604A0800F83687 /* HomeViewController.swift */,
-				24DDF0602760421000F83687 /* SettingsViewController.swift */,
 				24DDF0622760421A00F83687 /* InfoViewController.swift */,
 				24DDF05E27603BB000F83687 /* MenuController.swift */,
 				249D59F727580CB9006F25EC /* FreqRespViewControllerSide.swift */,
