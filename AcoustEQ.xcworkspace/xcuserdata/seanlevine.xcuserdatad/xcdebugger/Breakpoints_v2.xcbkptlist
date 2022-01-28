@@ -7,38 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7977EEC5-628C-47DD-BB09-D22A07CD320F"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AcoustEQ/Controllers/HomeViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
-            landmarkName = "didSelectMenuItem(name:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "30679A27-795A-470D-B71B-D8E78B5D17E2"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AcoustEQ/Controllers/HomeViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
-            landmarkName = "didSelectMenuItem(name:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "8F9658C3-BB63-418E-9FE2-FF1779EBB391"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -46,9 +14,9 @@
             filePath = "AcoustEQ/Controllers/FreqRespViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
-            landmarkName = "setFreqResponse(frameSize:octaveBand:scale:)"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "startAudio()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -62,10 +30,10 @@
             filePath = "AcoustEQ/Controllers/FreqRespViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "117"
-            endingLineNumber = "117"
-            landmarkName = "FreqRespViewController"
-            landmarkType = "3">
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "updateCounter()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -78,10 +46,8 @@
             filePath = "AcoustEQ/Controllers/FreqRespViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "150"
-            endingLineNumber = "150"
-            landmarkName = "prepare(for:sender:)"
-            landmarkType = "7">
+            startingLineNumber = "167"
+            endingLineNumber = "167">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -94,10 +60,8 @@
             filePath = "AcoustEQ/Controllers/FreqRespViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "151"
-            endingLineNumber = "151"
-            landmarkName = "prepare(for:sender:)"
-            landmarkType = "7">
+            startingLineNumber = "168"
+            endingLineNumber = "168">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -110,10 +74,10 @@
             filePath = "AcoustEQ/Controllers/FreqRespViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "FreqRespViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -126,9 +90,9 @@
             filePath = "AcoustEQ/Controllers/FreqRespViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "120"
-            endingLineNumber = "120"
-            landmarkName = "startAudio()"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "updateCounter()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -136,6 +100,54 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "9BFCB862-021B-4C38-B94D-262277A810DD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AcoustEQ/Controllers/FreqRespViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "startTimer()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D2AB397-E488-4186-AF71-F7BE8FF3C040"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AcoustEQ/Controllers/FreqRespViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "updateCounter()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3D5F9263-5011-4FF9-9ECF-2ED395AF9187"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AcoustEQ/Controllers/FreqRespViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "updateCounter()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A965664D-D161-42AD-9ABC-B11D667DF072"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -151,54 +163,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "9D2AB397-E488-4186-AF71-F7BE8FF3C040"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AcoustEQ/Controllers/FreqRespViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "122"
-            endingLineNumber = "122"
-            landmarkName = "startAudio()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "3D5F9263-5011-4FF9-9ECF-2ED395AF9187"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AcoustEQ/Controllers/FreqRespViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "126"
-            endingLineNumber = "126"
-            landmarkName = "startAudio()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A965664D-D161-42AD-9ABC-B11D667DF072"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AcoustEQ/Controllers/FreqRespViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "111"
-            endingLineNumber = "111"
-            landmarkName = "setFreqResponse(frameSize:octaveBand:scale:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "58328642-1EA1-4341-B11F-B217EADD49DE"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -206,10 +170,10 @@
             filePath = "AcoustEQ/Controllers/FreqRespViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "viewDidDisappear(_:)"
-            landmarkType = "7">
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "FreqRespViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -222,8 +186,8 @@
             filePath = "AcoustEQ/Controllers/FreqRespViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -238,9 +202,1269 @@
             filePath = "AcoustEQ/Controllers/FreqRespViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "112"
-            endingLineNumber = "112"
-            landmarkName = "setFreqResponse(frameSize:octaveBand:scale:)"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "startAudio()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9EE41EEB-3854-4160-9504-F94BCDFBF3AA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AcoustEQ/Controllers/FreqRespViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "FreqRespViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "9EE41EEB-3854-4160-9504-F94BCDFBF3AA - e96f9ca4759aa08d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.FreqRespViewController.audioInput.getter : Swift.Optional&lt;AcoustEQ.TempiAudioInput&gt;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/FreqRespViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "9EE41EEB-3854-4160-9504-F94BCDFBF3AA - 99492438aefce091"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.FreqRespViewController.audioInput.setter : Swift.Optional&lt;AcoustEQ.TempiAudioInput&gt;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/FreqRespViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "9EE41EEB-3854-4160-9504-F94BCDFBF3AA - c35687b932ef223c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.FreqRespViewController.audioInput.modify : Swift.Optional&lt;AcoustEQ.TempiAudioInput&gt;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/FreqRespViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "9EE41EEB-3854-4160-9504-F94BCDFBF3AA - 93f6cbe350384a2e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.FreqRespViewController.audioInput.modify : Swift.Optional&lt;AcoustEQ.TempiAudioInput&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/FreqRespViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "9EE41EEB-3854-4160-9504-F94BCDFBF3AA - e0bcb3f28b3024cf"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.FreqRespViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; AcoustEQ.FreqRespViewController"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/FreqRespViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "352">
+               </Location>
+               <Location
+                  uuid = "9EE41EEB-3854-4160-9504-F94BCDFBF3AA - 74d3ba9bb90b93d4"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.FreqRespViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AcoustEQ.FreqRespViewController&gt;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/FreqRespViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "328">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "417D85CE-6246-444D-869B-5494A180B6F1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AcoustEQ/Controllers/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "MainViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "417D85CE-6246-444D-869B-5494A180B6F1 - 80669d4ce0a8034"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.MainViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; AcoustEQ.MainViewController"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "417D85CE-6246-444D-869B-5494A180B6F1 - 1ad2930586b760b3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.MainViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; AcoustEQ.MainViewController"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "417D85CE-6246-444D-869B-5494A180B6F1 - 673fb47889baf0b2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.MainViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AcoustEQ.MainViewController&gt;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "417D85CE-6246-444D-869B-5494A180B6F1 - a3e1fe71f05aeb89"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.MainViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AcoustEQ.MainViewController&gt;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "417D85CE-6246-444D-869B-5494A180B6F1 - 616132a36c4daed7"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.MainViewController.__deallocating_deinit"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92A2C162-A9BB-4858-87B2-0FEFB85D0F3B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AcoustEQ/Controllers/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "MainViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "92A2C162-A9BB-4858-87B2-0FEFB85D0F3B - 26337d8e304065f0"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.MainViewController.audioInput.getter : Swift.Optional&lt;AcoustEQ.TempiAudioInput&gt;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "92A2C162-A9BB-4858-87B2-0FEFB85D0F3B - cdab7343315fa5fc"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.MainViewController.audioInput.setter : Swift.Optional&lt;AcoustEQ.TempiAudioInput&gt;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "92A2C162-A9BB-4858-87B2-0FEFB85D0F3B - 86decf0142afe7fe"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.MainViewController.audioInput.modify : Swift.Optional&lt;AcoustEQ.TempiAudioInput&gt;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "92A2C162-A9BB-4858-87B2-0FEFB85D0F3B - 6a0cf7dcd36daf0"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.MainViewController.audioInput.modify : Swift.Optional&lt;AcoustEQ.TempiAudioInput&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "92A2C162-A9BB-4858-87B2-0FEFB85D0F3B - 1ad2930586b760f5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.MainViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; AcoustEQ.MainViewController"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "92A2C162-A9BB-4858-87B2-0FEFB85D0F3B - a3e1fe71f05aebcf"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.MainViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AcoustEQ.MainViewController&gt;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0DC0146-9C62-4863-813D-F98B3B5AA73D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AcoustEQ/Controllers/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1CA5A8CC-25E5-4F4E-8F08-A0A171A0E16C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AcoustEQ/Controllers/SettingsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "SettingsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "1CA5A8CC-25E5-4F4E-8F08-A0A171A0E16C - d8a24520a830ff1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.SettingsViewController.frameSizeControl.getter : Swift.Optional&lt;__C.UISegmentedControl&gt;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/SettingsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "1CA5A8CC-25E5-4F4E-8F08-A0A171A0E16C - a33ebc002b3c4f03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.SettingsViewController.frameSizeControl.setter : Swift.Optional&lt;__C.UISegmentedControl&gt;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/SettingsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "1CA5A8CC-25E5-4F4E-8F08-A0A171A0E16C - 7c8ffdff19858eea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.SettingsViewController.frameSizeControl.modify : Swift.Optional&lt;__C.UISegmentedControl&gt;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/SettingsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "1CA5A8CC-25E5-4F4E-8F08-A0A171A0E16C - 544277b32df8827a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.SettingsViewController.frameSizeControl.modify : Swift.Optional&lt;__C.UISegmentedControl&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/SettingsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "1CA5A8CC-25E5-4F4E-8F08-A0A171A0E16C - 1d73127851699107"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.SettingsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; AcoustEQ.SettingsViewController"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/SettingsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "344">
+               </Location>
+               <Location
+                  uuid = "1CA5A8CC-25E5-4F4E-8F08-A0A171A0E16C - 827d305f25606178"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.SettingsViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AcoustEQ.SettingsViewController&gt;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/SettingsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "324">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2652A02A-E630-4C84-840A-550E22ADECED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AcoustEQ/Controllers/SettingsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "SettingsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "2652A02A-E630-4C84-840A-550E22ADECED - 2e67b55bce25851a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.SettingsViewController.freqController.getter : AcoustEQ.FreqRespViewController"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/SettingsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "2652A02A-E630-4C84-840A-550E22ADECED - 1d73127851699641"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.SettingsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; AcoustEQ.SettingsViewController"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/SettingsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "248">
+               </Location>
+               <Location
+                  uuid = "2652A02A-E630-4C84-840A-550E22ADECED - 827d305f2560663e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.SettingsViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AcoustEQ.SettingsViewController&gt;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/SettingsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "224">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D4B2F51-E186-4033-9FE0-2C05CEBCB86D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AcoustEQ/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "sceneDidDisconnect(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E9D39A44-B694-41C9-B700-9E786797058A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AcoustEQ/Controllers/FreqRespViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "FreqRespViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E9D39A44-B694-41C9-B700-9E786797058A - baa9e5e3dd208250"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.FreqRespViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; AcoustEQ.FreqRespViewController"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/FreqRespViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "E9D39A44-B694-41C9-B700-9E786797058A - e0bcb3f28b302785"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.FreqRespViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; AcoustEQ.FreqRespViewController"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/FreqRespViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "E9D39A44-B694-41C9-B700-9E786797058A - 77e6c646e5de9267"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.FreqRespViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AcoustEQ.FreqRespViewController&gt;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/FreqRespViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "E9D39A44-B694-41C9-B700-9E786797058A - 74d3ba9bb90b909e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.FreqRespViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AcoustEQ.FreqRespViewController&gt;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/FreqRespViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "E9D39A44-B694-41C9-B700-9E786797058A - 883ea6003186fbe7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.FreqRespViewController.__deallocating_deinit"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/FreqRespViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8A02BF3-1863-48F9-968A-77DC5E62A1AC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AcoustEQ/Controllers/SettingsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "frameSizeChanged(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C8D7583-3819-4671-8281-9EF36697D4A0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AcoustEQ/Controllers/Views/SpectrumView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "SpectrumView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "7C8D7583-3819-4671-8281-9EF36697D4A0 - 43cd8411aa190eef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.SpectrumView.displayLink.getter : Swift.Optional&lt;__C.CADisplayLink&gt;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/Views/SpectrumView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "7C8D7583-3819-4671-8281-9EF36697D4A0 - bccc1a2754eee2fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.SpectrumView.displayLink.setter : Swift.Optional&lt;__C.CADisplayLink&gt;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/Views/SpectrumView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "7C8D7583-3819-4671-8281-9EF36697D4A0 - 8d69a2f037cad758"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.SpectrumView.displayLink.modify : Swift.Optional&lt;__C.CADisplayLink&gt;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/Views/SpectrumView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "7C8D7583-3819-4671-8281-9EF36697D4A0 - 5a64e17b7491afee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.SpectrumView.displayLink.modify : Swift.Optional&lt;__C.CADisplayLink&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/Views/SpectrumView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "7C8D7583-3819-4671-8281-9EF36697D4A0 - 6428e90068d2219"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.SpectrumView.init(frame: __C.CGRect) -&gt; AcoustEQ.SpectrumView"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/Views/SpectrumView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "492">
+               </Location>
+               <Location
+                  uuid = "7C8D7583-3819-4671-8281-9EF36697D4A0 - 82f3c6a3310a9d1d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.SpectrumView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AcoustEQ.SpectrumView&gt;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/Views/SpectrumView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "460">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "77DE25EA-2F94-4EDF-B30B-391E6FE24BE9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AcoustEQ/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "SceneDelegate"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "85037D10-8CCE-4828-AC68-4D68D49F33A9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AcoustEQ/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "sceneDidDisconnect(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FAC6ED8B-295B-42CB-8D91-517C4E9FB717"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AcoustEQ/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "SceneDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "FAC6ED8B-295B-42CB-8D91-517C4E9FB717 - 823e35041c3b6fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.SceneDelegate.window.getter : Swift.Optional&lt;__C.UIWindow&gt;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "FAC6ED8B-295B-42CB-8D91-517C4E9FB717 - c81a8661071b4662"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.SceneDelegate.window.setter : Swift.Optional&lt;__C.UIWindow&gt;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "FAC6ED8B-295B-42CB-8D91-517C4E9FB717 - 143e9f8dcaf1f0af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.SceneDelegate.window.modify : Swift.Optional&lt;__C.UIWindow&gt;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "FAC6ED8B-295B-42CB-8D91-517C4E9FB717 - 4c25090edaa166e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.SceneDelegate.window.modify : Swift.Optional&lt;__C.UIWindow&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "FAC6ED8B-295B-42CB-8D91-517C4E9FB717 - 6cf65a64c405a10b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.SceneDelegate.init() -&gt; AcoustEQ.SceneDelegate"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "505CE48A-9985-4EFC-82BA-69F13B06C540"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AcoustEQ/Controllers/FreqRespViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "FreqRespViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "505CE48A-9985-4EFC-82BA-69F13B06C540 - 434e8026fb41a93c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.FreqRespViewController.sampleRate.getter : Swift.Double"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/FreqRespViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "505CE48A-9985-4EFC-82BA-69F13B06C540 - 40664a19e9934954"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.FreqRespViewController.sampleRate.setter : Swift.Double"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/FreqRespViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "505CE48A-9985-4EFC-82BA-69F13B06C540 - 12b64448f76302a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.FreqRespViewController.sampleRate.modify : Swift.Double"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/FreqRespViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "505CE48A-9985-4EFC-82BA-69F13B06C540 - a5007ba7983e3a07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.FreqRespViewController.sampleRate.modify : Swift.Double with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/FreqRespViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "505CE48A-9985-4EFC-82BA-69F13B06C540 - e0bcb3f28b3025e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.FreqRespViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; AcoustEQ.FreqRespViewController"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/FreqRespViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "456">
+               </Location>
+               <Location
+                  uuid = "505CE48A-9985-4EFC-82BA-69F13B06C540 - 74d3ba9bb90b92f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.FreqRespViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AcoustEQ.FreqRespViewController&gt;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/FreqRespViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "432">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2B0A341B-725D-4BD1-A281-73A9BF591AF3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AcoustEQ/Controllers/FreqRespViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "FreqRespViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "2B0A341B-725D-4BD1-A281-73A9BF591AF3 - a86a0e4dc1e2e144"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.FreqRespViewController.count.getter : Swift.Int"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/FreqRespViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "2B0A341B-725D-4BD1-A281-73A9BF591AF3 - 7ee0be01ff459548"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.FreqRespViewController.count.setter : Swift.Int"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/FreqRespViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "2B0A341B-725D-4BD1-A281-73A9BF591AF3 - 847ffb5e7678726"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.FreqRespViewController.count.modify : Swift.Int"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/FreqRespViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "2B0A341B-725D-4BD1-A281-73A9BF591AF3 - b86efd6299bca648"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.FreqRespViewController.count.modify : Swift.Int with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/FreqRespViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "2B0A341B-725D-4BD1-A281-73A9BF591AF3 - e0bcb3f28b30256c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.FreqRespViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; AcoustEQ.FreqRespViewController"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/FreqRespViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "380">
+               </Location>
+               <Location
+                  uuid = "2B0A341B-725D-4BD1-A281-73A9BF591AF3 - 74d3ba9bb90b9277"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.FreqRespViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AcoustEQ.FreqRespViewController&gt;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/FreqRespViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "356">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "977DD109-266B-4678-86A3-289A09EED4FC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AcoustEQ/Controllers/FreqRespViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "FreqRespViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "977DD109-266B-4678-86A3-289A09EED4FC - e0bcb3f28b302785"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.FreqRespViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; AcoustEQ.FreqRespViewController"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/FreqRespViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "977DD109-266B-4678-86A3-289A09EED4FC - 74d3ba9bb90b909e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.FreqRespViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AcoustEQ.FreqRespViewController&gt;"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/Controllers/FreqRespViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F2A9752-8A5B-4140-9A7B-8F1EDE10EE8E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AcoustEQ/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "2F2A9752-8A5B-4140-9A7B-8F1EDE10EE8E - 7ee4cd7e49736af5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.AppDelegate.__allocating_init() -&gt; AcoustEQ.AppDelegate"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "2F2A9752-8A5B-4140-9A7B-8F1EDE10EE8E - 5c46e1dc038aa602"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.AppDelegate.init() -&gt; AcoustEQ.AppDelegate"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "2F2A9752-8A5B-4140-9A7B-8F1EDE10EE8E - 6f030d983369a1d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AcoustEQ.AppDelegate.__deallocating_deinit"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "2F2A9752-8A5B-4140-9A7B-8F1EDE10EE8E - 20a2501572da29d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "AcoustEQ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seanlevine/Library/Mobile%20Documents/com~apple~CloudDocs/HW/Capstone/AcoustEQ/AcoustEQ/AcoustEQ/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B76426DE-EBD6-4124-9995-2DE2936E0E95"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AcoustEQ/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "770E5602-766A-4C68-862A-329BA342BC44"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AcoustEQ/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5EFAEF3-B4CF-47F6-82B9-300E0EFEE8AF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AcoustEQ/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0749ABA7-B560-44BF-B8E1-F77DFB9C9C68"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AcoustEQ/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

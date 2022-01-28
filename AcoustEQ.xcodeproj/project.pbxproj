@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2402304B27A45A4C0056B68A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2402304A27A45A4C0056B68A /* AppDelegate.swift */; };
 		244DD3A3275715240097EDC1 /* SpectrumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244DD3A2275715240097EDC1 /* SpectrumView.swift */; };
 		244DD3A8275717370097EDC1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244DD3A7275717370097EDC1 /* Extensions.swift */; };
 		249D59F827580CB9006F25EC /* FreqRespViewControllerSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249D59F727580CB9006F25EC /* FreqRespViewControllerSide.swift */; };
@@ -23,7 +24,6 @@
 		24BFCF2E273977DA00C90032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BFCEEE2739758D00C90032 /* LaunchScreen.storyboard */; };
 		24BFCF2F273977DC00C90032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BFCEE92739758B00C90032 /* Main.storyboard */; };
 		24BFCF352739786400C90032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BFCF342739786400C90032 /* Assets.xcassets */; };
-		24BFCF3C27397EDE00C90032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BFCF3B27397EDE00C90032 /* AppDelegate.swift */; };
 		24DDF058276030E100F83687 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DDF057276030E100F83687 /* Protocols.swift */; };
 		24DDF05F27603BB000F83687 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DDF05E27603BB000F83687 /* MenuController.swift */; };
 		24DDF0612760421000F83687 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DDF0602760421000F83687 /* SettingsViewController.swift */; };
@@ -51,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2402304A27A45A4C0056B68A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		244DD3A2275715240097EDC1 /* SpectrumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectrumView.swift; sourceTree = "<group>"; };
 		244DD3A7275717370097EDC1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		249D59F727580CB9006F25EC /* FreqRespViewControllerSide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreqRespViewControllerSide.swift; sourceTree = "<group>"; };
@@ -71,7 +72,6 @@
 		24BFCF1F273975C800C90032 /* TempiAudioInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempiAudioInput.swift; sourceTree = "<group>"; };
 		24BFCF342739786400C90032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24BFCF382739799700C90032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		24BFCF3B27397EDE00C90032 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../tempi-fft-master/TempiFFT/AppDelegate.swift"; sourceTree = "<group>"; };
 		24DDF057276030E100F83687 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		24DDF05E27603BB000F83687 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		24DDF0602760421000F83687 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -152,7 +152,7 @@
 		24BFCEE22739758B00C90032 /* AcoustEQ */ = {
 			isa = PBXGroup;
 			children = (
-				24BFCF3B27397EDE00C90032 /* AppDelegate.swift */,
+				2402304A27A45A4C0056B68A /* AppDelegate.swift */,
 				24BFCEE52739758B00C90032 /* SceneDelegate.swift */,
 				24DDF059276031C500F83687 /* Utils */,
 				24DDF05A276031D200F83687 /* Controllers */,
@@ -422,7 +422,6 @@
 				249D59F827580CB9006F25EC /* FreqRespViewControllerSide.swift in Sources */,
 				24BFCF2A273975C800C90032 /* TempiAudioInput.swift in Sources */,
 				24DDF0632760421A00F83687 /* InfoViewController.swift in Sources */,
-				24BFCF3C27397EDE00C90032 /* AppDelegate.swift in Sources */,
 				244DD3A3275715240097EDC1 /* SpectrumView.swift in Sources */,
 				24BFCF24273975C800C90032 /* SpectralView.swift in Sources */,
 				24DDF068276050E800F83687 /* FreqRespViewController.swift in Sources */,
@@ -433,6 +432,7 @@
 				24BFCF29273975C800C90032 /* TempiUtilities.swift in Sources */,
 				244DD3A8275717370097EDC1 /* Extensions.swift in Sources */,
 				24DDF05F27603BB000F83687 /* MenuController.swift in Sources */,
+				2402304B27A45A4C0056B68A /* AppDelegate.swift in Sources */,
 				24BFCEE62739758B00C90032 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
